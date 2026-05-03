@@ -114,20 +114,19 @@ const Header = () => {
                 {cartItems.length}
               </Badge>
             </Button>
+            <IconButton
+              className="mobile-nav-toggle"
+              aria-label="Toggle navigation"
+              icon={<Icon as={isOpen ? FiX : FiMenu} />}
+              onClick={onToggle}
+              bg="#70d6ff"
+              color="#123522"
+              _hover={{ bg: '#ffd166' }}
+              borderRadius="full"
+              boxShadow="0 10px 22px rgba(18, 53, 34, .12)"
+            />
           </HStack>
         </Flex>
-
-        <IconButton
-          className="mobile-nav-toggle header-floating-toggle"
-          aria-label="Toggle navigation"
-          icon={<Icon as={isOpen ? FiX : FiMenu} />}
-          onClick={onToggle}
-          bg="#70d6ff"
-          color="#123522"
-          _hover={{ bg: '#ffd166' }}
-          borderRadius="full"
-          boxShadow="0 10px 22px rgba(18, 53, 34, .12)"
-        />
 
         {isOpen && (
           <Stack mt="3" p="3" className="market-shell mobile-menu-panel" borderRadius="24px" spacing="2">

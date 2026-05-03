@@ -1,5 +1,5 @@
 import React from 'react' 
-import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
+import {BrowserRouter as Router,Routes,Route,useLocation} from 'react-router-dom'
 import Header from './components/Header';
 import Contact from './components/Contact';
 import Home from './components/Home'
@@ -16,11 +16,25 @@ import Gifting from './components/Gifting';
 import Quality from './components/Quality';
 import { Toaster } from 'react-hot-toast';
 
+const ScrollToTop = () => {
+  const location = useLocation();
+
+  React.useEffect(() => {
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+    window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+  }, [location.pathname]);
+
+  return null;
+};
+
 function App() {
   const basename = process.env.PUBLIC_URL || '/';
 
   return (
     <Router basename={basename}>
+      <ScrollToTop />
       <Toaster position="top-center" />
       <Header />
       <Routes>

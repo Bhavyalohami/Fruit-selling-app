@@ -85,13 +85,6 @@ body {
   display: inline-flex !important;
 }
 
-.header-floating-toggle {
-  position: absolute !important;
-  right: 28px !important;
-  top: 28px !important;
-  z-index: 4;
-}
-
 @media (min-width: 1180px) {
   .desktop-nav {
     display: flex !important;
@@ -107,23 +100,24 @@ body {
 }
 
 @media (max-width: 1179px) {
-  .header-shell {
-    position: relative;
-    padding-right: 70px !important;
-  }
-
-  .header-floating-toggle {
-    display: inline-flex !important;
-    position: fixed !important;
-    left: min(calc(100vw - 64px), 330px) !important;
-    right: auto !important;
-    top: 28px !important;
+  .header-actions {
+    margin-left: auto;
   }
 }
 
 @media (max-width: 767px) {
   .header-shell {
+    position: relative;
     min-height: 70px;
+    padding-right: 68px !important;
+  }
+
+  .header-actions {
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 0;
   }
 
   .header-talk,

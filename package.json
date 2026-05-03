@@ -2,6 +2,7 @@
   "name": "one",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://bhavyalohami.github.io/Fruit-selling-app",
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.3",
