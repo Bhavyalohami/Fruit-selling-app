@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+  background:
+    radial-gradient(circle at 12% 8%, rgba(112, 214, 255, 0.26), transparent 25rem),
+    radial-gradient(circle at 88% 12%, rgba(245, 183, 59, 0.3), transparent 24rem),
+    linear-gradient(180deg, #fbfff6 0%, #eef9f2 52%, #f7fcff 100%);
+}
+
+#root {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+::selection {
+  color: #123522;
+  background: #ffd166;
+}
+
+.market-shell {
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.86), rgba(255, 255, 255, 0.58)),
+    radial-gradient(circle at 20% 10%, rgba(112, 214, 255, 0.24), transparent 18rem);
+  border: 1px solid rgba(18, 53, 34, 0.1);
+  box-shadow: 0 24px 60px rgba(25, 89, 61, 0.13);
+  backdrop-filter: blur(18px);
+}
+
+.site-header {
+  width: 100%;
+  overflow: visible;
+  position: sticky;
+}
+
+.header-shell {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-height: 76px;
+  overflow: visible;
+}
+
+.desktop-nav {
+  display: none !important;
+  flex-shrink: 1;
+  min-width: 0;
+}
+
+.header-actions {
+  margin-left: auto;
+}
+
+.mobile-menu-panel {
+  max-height: calc(100vh - 104px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: #2f8f53 transparent;
+}
+
+.mobile-menu-panel::-webkit-scrollbar {
+  width: 8px;
+}
+
+.mobile-menu-panel::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.mobile-menu-panel::-webkit-scrollbar-thumb {
+  background: rgba(47, 143, 83, 0.36);
+  border-radius: 999px;
+}
+
+.mobile-nav-toggle {
+  display: inline-flex !important;
+}
+
+.header-floating-toggle {
+  position: absolute !important;
+  right: 28px !important;
+  top: 28px !important;
+  z-index: 4;
+}
+
+@media (min-width: 1180px) {
+  .desktop-nav {
+    display: flex !important;
+  }
+
+  .mobile-nav-toggle {
+    display: none !important;
+  }
+
+  .header-actions {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 1179px) {
+  .header-shell {
+    position: relative;
+    padding-right: 70px !important;
+  }
+
+  .header-floating-toggle {
+    display: inline-flex !important;
+    position: fixed !important;
+    left: min(calc(100vw - 64px), 330px) !important;
+    right: auto !important;
+    top: 28px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .header-shell {
+    min-height: 70px;
+  }
+
+  .header-talk,
+  .header-cart {
+    display: none !important;
+  }
+}
+
+.leaf-card {
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.92), rgba(248, 255, 233, 0.78));
+  border: 1px solid rgba(18, 53, 34, 0.12);
+  box-shadow: 0 18px 45px rgba(25, 89, 61, 0.12);
+}
+
+.orchard-map {
+  background-image:
+    linear-gradient(rgba(47, 143, 83, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(47, 143, 83, 0.08) 1px, transparent 1px);
+  background-size: 42px 42px;
+}
+
+.sun-stamp {
+  background: #ffd166;
+  color: #123522;
+  box-shadow: 8px 8px 0 #f15f3d;
+  transform: rotate(-2deg);
+}
+
+.sky-band {
+  background: linear-gradient(90deg, #70d6ff, #ffd166, #f15f3d);
+  color: #123522;
+}
+
+.motion-vine {
+  width: min(1120px, 100%);
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.floating-fruit {
+  position: absolute;
+  width: clamp(78px, 10vw, 130px);
+  pointer-events: none;
+  filter: drop-shadow(0 16px 24px rgba(18, 53, 34, 0.18));
+  display: none;
+}
+
+.floating-fruit.one {
+  left: 48%;
+  top: 62%;
+}
+
+.floating-fruit.two {
+  right: 7%;
+  top: 12%;
+  animation-delay: 1s;
+}
+
+@media (min-width: 768px) {
+  .floating-fruit {
+    display: block;
+  }
+}
+
+.harvest-scene {
+  width: 100%;
+  min-height: clamp(430px, 58vw, 690px);
+  position: relative;
+  overflow: hidden;
+}
+
+.harvest-scene canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.organic-hero {
+  background:
+    radial-gradient(circle at 68% 44%, rgba(255, 209, 102, 0.38), transparent 21rem),
+    radial-gradient(circle at 80% 20%, rgba(112, 214, 255, 0.34), transparent 19rem),
+    linear-gradient(135deg, #fbfff6 0%, #eef9f2 50%, #eaf8ff 100%);
+}

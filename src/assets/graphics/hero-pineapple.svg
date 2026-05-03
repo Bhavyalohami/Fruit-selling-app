@@ -1,0 +1,32 @@
+<svg width="960" height="960" viewBox="0 0 960 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="960" rx="120" fill="#FBFFF6"/>
+  <g filter="url(#glow)">
+    <circle cx="480" cy="480" r="330" fill="url(#halo)" opacity=".48"/>
+  </g>
+  <path d="M480 128c64-68 145-74 231-38-90 20-150 67-182 140 6-87-18-111-49-102Zm0 0c-64-68-145-74-231-38 90 20 150 67 182 140-6-87 18-111 49-102Z" fill="url(#leaf)"/>
+  <path d="M479 196c139 0 252 113 252 252 0 231-252 382-252 382S227 679 227 448c0-139 113-252 252-252Z" fill="url(#fruit)" stroke="#FEF08A" stroke-width="8"/>
+  <path d="M311 407c113-54 224-54 337 0M298 502c120-58 240-58 361 0M330 595c99-44 198-44 297 0" stroke="#11180E" stroke-width="28" stroke-linecap="round" opacity=".74"/>
+  <path d="M358 302c28 18 56 36 84 54m80-54c-28 18-56 36-84 54m-86 167c30 18 60 36 90 54m86-54c-30 18-60 36-90 54" stroke="#fff7ad" stroke-width="10" stroke-linecap="round" opacity=".45"/>
+  <circle cx="367" cy="401" r="18" fill="#101510"/>
+  <circle cx="590" cy="401" r="18" fill="#101510"/>
+  <path d="M401 681c45 29 110 29 155 0" stroke="#101510" stroke-width="19" stroke-linecap="round"/>
+  <defs>
+    <filter id="glow" x="60" y="60" width="840" height="840" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="36"/>
+    </filter>
+    <radialGradient id="halo" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(480 480) rotate(90) scale(330)">
+      <stop stop-color="#70D6FF"/>
+      <stop offset=".48" stop-color="#FFD166"/>
+      <stop offset="1" stop-color="#FBFFF6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="leaf" x1="236" y1="82" x2="705" y2="220">
+      <stop stop-color="#74C365"/>
+      <stop offset="1" stop-color="#2F8F53"/>
+    </linearGradient>
+    <linearGradient id="fruit" x1="251" y1="200" x2="731" y2="830">
+      <stop stop-color="#FFF27D"/>
+      <stop offset=".5" stop-color="#FF9F2E"/>
+      <stop offset="1" stop-color="#2F8F53"/>
+    </linearGradient>
+  </defs>
+</svg>
