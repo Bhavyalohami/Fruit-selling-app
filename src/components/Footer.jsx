@@ -17,6 +17,8 @@ import { FiInstagram, FiMail, FiMapPin, FiPhone, FiYoutube } from 'react-icons/f
 import { MotionVine } from './MotionOrchard';
 
 const Footer = () => {
+  const publicUrl = process.env.PUBLIC_URL || '';
+
   return (
     <Box as="footer" bg="#123522" color="white" overflow="hidden">
       <Box bg="#fbfff6" pt="8">
@@ -28,7 +30,7 @@ const Footer = () => {
             <Badge alignSelf="flex-start" bg="#ffd166" color="#123522" borderRadius="full" px="3" py="1">
               Fresh tropical market
             </Badge>
-            <Image src="/logo.svg" alt="PineApplee" width="190px" bg="white" borderRadius="18px" p="2" />
+            <Image src={`${publicUrl}/logo.svg`} alt="PineApplee" width="190px" bg="white" borderRadius="18px" p="2" />
             <Text color="whiteAlpha.800" maxW="420px">
               Pineapple-led fruit boxes for homes, cafes, offices, and gifting. Sorted by ripeness, packed with care, and delivered bright.
             </Text>

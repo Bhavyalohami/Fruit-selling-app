@@ -35,6 +35,7 @@ const navItems = [
 const Header = () => {
   const { cartItems } = useSelector((state) => state.cart);
   const { isOpen, onToggle, onClose } = useDisclosure();
+  const publicUrl = process.env.PUBLIC_URL || '';
 
   return (
     <Box as="header" position="sticky" top="0" zIndex="30" px={{ base: 3, md: 5 }} pt="3" className="site-header">
@@ -52,7 +53,7 @@ const Header = () => {
         >
           <Link to="/" onClick={onClose} style={{ minWidth: 0 }}>
             <HStack spacing="2" minW="0" flexShrink="1">
-              <Image src="/logo.svg" alt="PineApplee" h={{ base: '38px', md: '44px' }} w={{ base: '138px', md: '178px' }} objectFit="contain" />
+              <Image src={`${publicUrl}/logo.svg`} alt="PineApplee" h={{ base: '38px', md: '44px' }} w={{ base: '138px', md: '178px' }} objectFit="contain" />
             </HStack>
           </Link>
 

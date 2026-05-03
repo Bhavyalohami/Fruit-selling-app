@@ -17,8 +17,10 @@ import Quality from './components/Quality';
 import { Toaster } from 'react-hot-toast';
 
 function App() {
+  const basename = process.env.PUBLIC_URL || '/';
+
   return (
-    <Router>
+    <Router basename={basename}>
       <Toaster position="top-center" />
       <Header />
       <Routes>
@@ -34,6 +36,7 @@ function App() {
         <Route path="/product" element={<Product />} />
         <Route path='/cart' element={<Cart />}/>
         <Route path='/checkout' element={<Checkout />}/>
+        <Route path="*" element={<Home />} />
       </Routes>
       <Footer />
     </Router>
