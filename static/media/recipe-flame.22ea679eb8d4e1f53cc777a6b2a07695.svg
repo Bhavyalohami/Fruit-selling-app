@@ -1,0 +1,13 @@
+<svg width="900" height="620" viewBox="0 0 900 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="620" rx="72" fill="#FFF7DF"/>
+  <path d="M438 520c118 0 214-75 214-190 0-96-58-142-96-200-14 72-72 97-78 170-42-43-54-111-18-197-115 62-212 153-212 279 0 82 75 138 190 138Z" fill="url(#flame)"/>
+  <path d="M338 392c67 34 133 34 200 0" stroke="#090A09" stroke-width="22" stroke-linecap="round" opacity=".45"/>
+  <text x="226" y="118" fill="#123522" font-family="Inter, Segoe UI, sans-serif" font-size="52" font-weight="900">CHARRED SWEET</text>
+  <defs>
+    <linearGradient id="flame" x1="252" y1="88" x2="654" y2="526">
+      <stop stop-color="#FFF06A"/>
+      <stop offset=".48" stop-color="#FF4F38"/>
+      <stop offset="1" stop-color="#2F8F53"/>
+    </linearGradient>
+  </defs>
+</svg>

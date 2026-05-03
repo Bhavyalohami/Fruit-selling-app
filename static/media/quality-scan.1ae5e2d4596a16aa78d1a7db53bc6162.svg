@@ -1,0 +1,16 @@
+<svg width="900" height="620" viewBox="0 0 900 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="620" rx="72" fill="#EAF8FF"/>
+  <circle cx="450" cy="318" r="198" fill="url(#fruit)" stroke="#F8F7D2" stroke-width="8"/>
+  <path d="M450 120c55-58 125-62 198-28-74 14-126 51-154 112 5-70-16-91-44-84Zm0 0c-55-58-125-62-198-28 74 14 126 51 154 112-5-70 16-91 44-84Z" fill="#2F8F53"/>
+  <rect x="145" y="126" width="610" height="368" rx="42" stroke="#2F8F53" stroke-width="8" stroke-dasharray="28 18"/>
+  <path d="M156 310h588" stroke="#FF4F38" stroke-width="8"/>
+  <path d="M308 280h284M288 350h324" stroke="#101510" stroke-width="22" stroke-linecap="round" opacity=".68"/>
+  <text x="285" y="540" fill="#123522" font-family="Inter, Segoe UI, sans-serif" font-size="38" font-weight="900">RIPENESS SCAN</text>
+  <defs>
+    <linearGradient id="fruit" x1="255" y1="124" x2="650" y2="520">
+      <stop stop-color="#FFF06A"/>
+      <stop offset=".55" stop-color="#FF9F2E"/>
+      <stop offset="1" stop-color="#2F8F53"/>
+    </linearGradient>
+  </defs>
+</svg>

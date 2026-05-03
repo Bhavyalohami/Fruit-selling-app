@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Fruit-selling-app/static/css/main.fedc10b7.css",
+    "main.js": "/Fruit-selling-app/static/js/main.055ce79e.js",
+    "static/media/hero-pineapple.svg": "/Fruit-selling-app/static/media/hero-pineapple.586e95fc7dabb0aea7d183f3f2af23d3.svg",
+    "static/media/quality-scan.svg": "/Fruit-selling-app/static/media/quality-scan.1ae5e2d4596a16aa78d1a7db53bc6162.svg",
+    "static/media/delivery-route.svg": "/Fruit-selling-app/static/media/delivery-route.ba85b78f43d469f6100513b782ba979c.svg",
+    "index.html": "/Fruit-selling-app/index.html",
+    "static/media/gift-box.svg": "/Fruit-selling-app/static/media/gift-box.89a17f980b99a79896a1398a8c6061ee.svg",
+    "static/media/bundle-crate.svg": "/Fruit-selling-app/static/media/bundle-crate.a06a9342a8ec5d8d100868fa0052175a.svg",
+    "static/media/recipe-flame.svg": "/Fruit-selling-app/static/media/recipe-flame.22ea679eb8d4e1f53cc777a6b2a07695.svg",
+    "main.fedc10b7.css.map": "/Fruit-selling-app/static/css/main.fedc10b7.css.map",
+    "main.055ce79e.js.map": "/Fruit-selling-app/static/js/main.055ce79e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fedc10b7.css",
+    "static/js/main.055ce79e.js"
+  ]
+}

@@ -1,0 +1,10 @@
+<svg width="900" height="620" viewBox="0 0 900 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="620" rx="72" fill="#FFF7DF"/>
+  <circle cx="692" cy="150" r="80" fill="#FFD166" opacity=".55"/>
+  <circle cx="206" cy="466" r="116" fill="#70D6FF" opacity=".45"/>
+  <rect x="210" y="270" width="480" height="260" rx="34" fill="#FFFFFF" stroke="#2F8F53" stroke-width="6"/>
+  <rect x="408" y="270" width="84" height="260" fill="#FF4F38"/>
+  <rect x="174" y="220" width="552" height="86" rx="26" fill="#FFD166"/>
+  <path d="M450 220c-70-112-180-126-190-48-8 63 92 64 190 48Zm0 0c70-112 180-126 190-48 8 63-92 64-190 48Z" stroke="#2F8F53" stroke-width="24" stroke-linecap="round"/>
+  <text x="260" y="158" fill="#123522" font-family="Inter, Segoe UI, sans-serif" font-size="54" font-weight="900">GIFT READY</text>
+</svg>

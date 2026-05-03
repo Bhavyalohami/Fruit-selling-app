@@ -1,0 +1,12 @@
+<svg width="900" height="620" viewBox="0 0 900 620" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="620" rx="72" fill="#FBFFF6"/>
+  <path d="M130 440C244 204 418 525 543 272c76-154 166-118 228-32" stroke="#2F8F53" stroke-width="14" stroke-linecap="round" stroke-dasharray="30 22"/>
+  <circle cx="130" cy="440" r="42" fill="#FFD166"/>
+  <circle cx="543" cy="272" r="42" fill="#FF4F38"/>
+  <circle cx="771" cy="240" r="42" fill="#70D6FF"/>
+  <rect x="232" y="324" width="220" height="112" rx="24" fill="#FFFFFF" stroke="#2F8F53" stroke-opacity=".3" stroke-width="4"/>
+  <path d="M256 385h92m36 0h34" stroke="#123522" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="286" cy="452" r="24" fill="#FFD166"/>
+  <circle cx="398" cy="452" r="24" fill="#FFD166"/>
+  <text x="196" y="152" fill="#123522" font-family="Inter, Segoe UI, sans-serif" font-size="56" font-weight="900">CITY DELIVERY</text>
+</svg>
